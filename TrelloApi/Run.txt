@@ -1,0 +1,5 @@
+cd C:\Users\ZeyadaNet\OneDrive\Desktop\TrelloApi
+
+newman run Trello.postman_collection.json -e Trello.postman_environment.json
+
+newman run Trello.postman_collection.json -e Trello.postman_environment.json -r htmlextra
